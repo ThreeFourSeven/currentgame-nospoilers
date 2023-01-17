@@ -1,0 +1,138 @@
+{
+  "sprites" : {
+    "default" : {
+      "spriteSheetName" : "default",
+      "sheetOffsetX" : 0.0,
+      "sheetOffsetY" : 0.0,
+      "width" : 32.0,
+      "height" : 32.0
+    },
+    "Sun" : {
+      "spriteSheetName" : "default_atlas",
+      "sheetOffsetX" : 196.0,
+      "sheetOffsetY" : 0.0,
+      "width" : 300.0,
+      "height" : 300.0
+    },
+    "Planet" : {
+      "spriteSheetName" : "default_atlas",
+      "sheetOffsetX" : 33.0,
+      "sheetOffsetY" : 0.0,
+      "width" : 150.0,
+      "height" : 150.0
+    },
+    "MetalFloor" : {
+      "spriteSheetName" : "default_atlas",
+      "sheetOffsetX" : 576.0,
+      "sheetOffsetY" : 0.0,
+      "width" : 64.0,
+      "height" : 64.0
+    },
+    "GasPlanet" : {
+      "spriteSheetName" : "default_atlas",
+      "sheetOffsetX" : 33.0,
+      "sheetOffsetY" : 160.0,
+      "width" : 150.0,
+      "height" : 150.0
+    },
+    "WoodPile" : {
+      "spriteSheetName" : "default_atlas",
+      "sheetOffsetX" : 0.0,
+      "sheetOffsetY" : 32.0,
+      "width" : 32.0,
+      "height" : 32.0
+    },
+    "Sack" : {
+      "spriteSheetName" : "default_atlas",
+      "sheetOffsetX" : 0.0,
+      "sheetOffsetY" : 64.0,
+      "width" : 32.0,
+      "height" : 32.0
+    },
+    "Barrel" : {
+      "spriteSheetName" : "default_atlas",
+      "sheetOffsetX" : 0.0,
+      "sheetOffsetY" : 103.0,
+      "width" : 32.0,
+      "height" : 35.0
+    }
+  },
+  "spriteSheets" : {
+    "default_atlas.png" : {
+      "id" : "a0df4917-b4a6-4e31-bd1b-8b46ebc95a01",
+      "imageAsset" : {
+        "location" : {
+          "id" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png",
+          "path" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png"
+        },
+        "dataClass" : "threefourseven.warpcorp.engine.asset.Image",
+        "readOnly" : true
+      },
+      "shaderScriptAsset" : {
+        "location" : {
+          "id" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs",
+          "path" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs"
+        },
+        "dataClass" : "threefourseven.warpcorp.engine.asset.ShaderScript",
+        "readOnly" : false
+      },
+      "meshAsset" : {
+        "location" : {
+          "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+          "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+        },
+        "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+        "readOnly" : false
+      },
+      "spriteSheetSize" : {
+        "name" : "spriteSheetSize",
+        "value" : {
+          "x" : 4096.0,
+          "y" : 4096.0
+        }
+      },
+      "spriteSheetTexture" : {
+        "name" : "spriteSheetTexture",
+        "value" : 0
+      }
+    },
+    "default_atlas" : {
+      "id" : "edf678b0-8fdd-4797-81da-be981ac5e218",
+      "imageAsset" : {
+        "location" : {
+          "id" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png",
+          "path" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png"
+        },
+        "dataClass" : "threefourseven.warpcorp.engine.asset.Image",
+        "readOnly" : true
+      },
+      "shaderScriptAsset" : {
+        "location" : {
+          "id" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs",
+          "path" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs"
+        },
+        "dataClass" : "threefourseven.warpcorp.engine.asset.ShaderScript",
+        "readOnly" : false
+      },
+      "meshAsset" : {
+        "location" : {
+          "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+          "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+        },
+        "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+        "readOnly" : false
+      },
+      "spriteSheetSize" : {
+        "name" : "spriteSheetSize",
+        "value" : {
+          "x" : 4096.0,
+          "y" : 4096.0
+        }
+      },
+      "spriteSheetTexture" : {
+        "name" : "spriteSheetTexture",
+        "value" : 0
+      }
+    }
+  }
+}

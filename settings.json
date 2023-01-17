@@ -1,0 +1,13 @@
+{
+  "logEvents" : false,
+  "borderless" : false,
+  "vsync" : false,
+  "msaa" : true,
+  "spriteBufferLimit" : 10000,
+  "goalFrameTime" : 13.333333,
+  "windowHeight" : 1080,
+  "windowTitle" : "WarpCorp",
+  "transformBufferLimit" : 5000,
+  "windowWidth" : 1920,
+  "msaaSamples" : 4
+}

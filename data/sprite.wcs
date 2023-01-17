@@ -1,0 +1,42 @@
+@@fragment
+#version 460
+
+in vec2 passUV;
+in vec4 passSpriteData;
+
+uniform vec2 spriteSheetSize;
+uniform sampler2D spriteSheetTexture;
+
+out vec4 pixelColor;
+
+void main() {
+vec2 pixelScale = vec2(1.0, 1.0) / spriteSheetSize;
+vec2 spriteOffset = pixelScale * passSpriteData.xy;
+vec2 spriteScale = pixelScale * passSpriteData.zw;
+vec2 uv = vec2(passUV.x * spriteScale.x + spriteOffset.x, passUV.y * spriteScale.y + spriteOffset.y);
+vec4 sampleColor = texture(spriteSheetTexture, uv);
+if(sampleColor.w < 0.1) {
+discard;
+}
+pixelColor = sampleColor;
+}
+
+@@vertex
+#version 460
+
+layout (location = 0) in vec3 vertex;
+layout (location = 1) in vec2 uv;
+layout (location = 2) in vec3 position;
+layout (location = 3) in vec2 scale;
+layout (location = 4) in vec4 spriteData;
+
+uniform mat4 viewProjection;
+
+out vec2 passUV;
+out vec4 passSpriteData;
+
+void main() {
+passUV = uv;
+passSpriteData = spriteData;
+gl_Position = viewProjection * vec4((vertex.xy * scale / 2) + position.xy, position.z + vertex.z, 1.0);
+}

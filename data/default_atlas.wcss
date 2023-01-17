@@ -1,0 +1,38 @@
+{
+  "id" : "edf678b0-8fdd-4797-81da-be981ac5e218",
+  "imageAsset" : {
+    "location" : {
+      "id" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png",
+      "path" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png"
+    },
+    "dataClass" : "threefourseven.warpcorp.engine.asset.Image",
+    "readOnly" : true
+  },
+  "shaderScriptAsset" : {
+    "location" : {
+      "id" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs",
+      "path" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs"
+    },
+    "dataClass" : "threefourseven.warpcorp.engine.asset.ShaderScript",
+    "readOnly" : false
+  },
+  "meshAsset" : {
+    "location" : {
+      "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+      "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+    },
+    "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+    "readOnly" : false
+  },
+  "spriteSheetSize" : {
+    "name" : "spriteSheetSize",
+    "value" : {
+      "x" : 4096.0,
+      "y" : 4096.0
+    }
+  },
+  "spriteSheetTexture" : {
+    "name" : "spriteSheetTexture",
+    "value" : 0
+  }
+}

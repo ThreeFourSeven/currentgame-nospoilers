@@ -1,0 +1,693 @@
+{
+  "id" : "9ff4091b-ec4e-4ad9-bf26-5961a711b299",
+  "entityTree" : {
+    "root" : {
+      "entity" : {
+        "id" : "ad2d39b2-a47d-414b-b37a-27c85199bead"
+      },
+      "parent" : null,
+      "children" : [ {
+        "entity" : {
+          "id" : "189cea72-17ca-4020-a706-52d1e87ce382"
+        },
+        "parent" : {
+          "id" : "ad2d39b2-a47d-414b-b37a-27c85199bead"
+        },
+        "children" : [ {
+          "entity" : {
+            "id" : "b52c9365-fcd0-4ef1-bfa1-c945c8138a50"
+          },
+          "parent" : {
+            "id" : "189cea72-17ca-4020-a706-52d1e87ce382"
+          },
+          "children" : [ {
+            "entity" : {
+              "id" : "bc8493b5-928c-47b6-ab3a-d10871781e9c"
+            },
+            "parent" : {
+              "id" : "b52c9365-fcd0-4ef1-bfa1-c945c8138a50"
+            },
+            "children" : [ {
+              "entity" : {
+                "id" : "b62a771e-bf88-4517-b9b6-366de79cfd29"
+              },
+              "parent" : {
+                "id" : "bc8493b5-928c-47b6-ab3a-d10871781e9c"
+              },
+              "children" : [ {
+                "entity" : {
+                  "id" : "6e47a302-521b-44fa-bf96-33d86d1ceeb3"
+                },
+                "parent" : {
+                  "id" : "b62a771e-bf88-4517-b9b6-366de79cfd29"
+                },
+                "children" : [ {
+                  "entity" : {
+                    "id" : "fc8c9935-f625-42c7-bea7-2d225c3a68f7"
+                  },
+                  "parent" : {
+                    "id" : "6e47a302-521b-44fa-bf96-33d86d1ceeb3"
+                  },
+                  "children" : [ {
+                    "entity" : {
+                      "id" : "4829d6af-3d6c-4c1c-aa8c-e2f842e48705"
+                    },
+                    "parent" : {
+                      "id" : "fc8c9935-f625-42c7-bea7-2d225c3a68f7"
+                    },
+                    "children" : [ {
+                      "entity" : {
+                        "id" : "15055e7c-a2eb-47c7-8479-b3654d9448c2"
+                      },
+                      "parent" : {
+                        "id" : "4829d6af-3d6c-4c1c-aa8c-e2f842e48705"
+                      },
+                      "children" : [ ]
+                    } ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "entity" : {
+          "id" : "ccd8ede2-b7f9-4cd3-939c-62fb3ccf2522"
+        },
+        "parent" : {
+          "id" : "ad2d39b2-a47d-414b-b37a-27c85199bead"
+        },
+        "children" : [ ]
+      }, {
+        "entity" : {
+          "id" : "2a1eea2d-9a66-4870-87da-f9a53e54b14e"
+        },
+        "parent" : {
+          "id" : "ad2d39b2-a47d-414b-b37a-27c85199bead"
+        },
+        "children" : [ ]
+      }, {
+        "entity" : {
+          "id" : "d49b60c8-88af-445a-b7bf-4c29bd2f3ee9"
+        },
+        "parent" : {
+          "id" : "ad2d39b2-a47d-414b-b37a-27c85199bead"
+        },
+        "children" : [ ]
+      } ]
+    },
+    "components" : {
+      "ad2d39b2-a47d-414b-b37a-27c85199bead" : {
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "e5578910-ebd7-48f3-bfb6-6ef6a39fdcab",
+          "position" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 0.1,
+            "y" : 0.1,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+          },
+          "relativeMatrix" : [ 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ]
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Root"
+        }
+      },
+      "ccd8ede2-b7f9-4cd3-939c-62fb3ccf2522" : {
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "SpriteLayer"
+        },
+        "SpriteLayerComponent" : {
+          "name" : "SpriteLayerComponent",
+          "sprites" : [ {
+            "spriteSheetName" : "default_atlas",
+            "name" : "default",
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "Sun",
+            "x" : 1.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "Planet",
+            "x" : 2.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "MetalFloor",
+            "x" : 3.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "GasPlanet",
+            "x" : 4.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "WoodPile",
+            "x" : 5.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "Sack",
+            "x" : 6.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "Barrel",
+            "x" : 7.0,
+            "y" : 0.0,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          } ],
+          "x" : 0.0,
+          "y" : 0.0
+        }
+      },
+      "189cea72-17ca-4020-a706-52d1e87ce382" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "137d5da0-9649-4277-9859-ab2a4281a139",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Triangle"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "8d7deeeb-e6b0-4565-8eda-30dca0d5059c",
+          "position" : {
+            "x" : 3.0,
+            "y" : 1.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 0.1,
+            "y" : 0.1,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 56.0
+          },
+          "relativeMatrix" : [ 0.055919286, 0.08290376, 0.0, 0.0, -0.08290376, 0.055919286, 0.0, 0.0, 0.0, 0.0, 0.99999994, 0.0, 3.0, 1.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ 0.055919286, 0.08290376, 0.0, 0.0, -0.08290376, 0.055919286, 0.0, 0.0, 0.0, 0.0, 0.99999994, 0.0, 3.0, 1.0, 0.0, 1.0 ]
+        }
+      },
+      "d49b60c8-88af-445a-b7bf-4c29bd2f3ee9" : {
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "AnimatedSprite"
+        },
+        "AnimatedSpriteComponent" : {
+          "name" : "AnimatedSpriteComponent",
+          "id" : "5af32811-2609-4a35-9f0f-42ad0a271235",
+          "sprites" : [ {
+            "spriteSheetName" : "default_atlas",
+            "name" : "Sun",
+            "x" : 0.0,
+            "y" : 0.1,
+            "z" : 0.0,
+            "scaleX" : 1.0,
+            "scaleY" : 1.0
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "Sun",
+            "x" : 0.0,
+            "y" : 0.2,
+            "z" : 0.0,
+            "scaleX" : 1.1,
+            "scaleY" : 1.1
+          }, {
+            "spriteSheetName" : "default_atlas",
+            "name" : "Sun",
+            "x" : 0.0,
+            "y" : 0.3,
+            "z" : 0.0,
+            "scaleX" : 1.2,
+            "scaleY" : 1.2
+          } ],
+          "frameTimeMs" : 76,
+          "x" : 1.0,
+          "y" : 2.0
+        }
+      },
+      "b52c9365-fcd0-4ef1-bfa1-c945c8138a50" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "3c1a72cf-fb6c-40cf-8f5d-a2cf9355c661",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Quad"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "d1c2c18d-5944-4777-90d6-8c2f08c20afa",
+          "position" : {
+            "x" : 0.0,
+            "y" : 9.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+          },
+          "relativeMatrix" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 9.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ 0.055919286, 0.08290376, 0.0, 0.0, -0.08290376, 0.055919286, 0.0, 0.0, 0.0, 0.0, 0.99999994, 0.0, 2.2538662, 1.5032735, 0.0, 1.0 ]
+        }
+      },
+      "2a1eea2d-9a66-4870-87da-f9a53e54b14e" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "5d989b81-95fb-42be-8935-9fa1cfdf30c1",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Quad"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "80c8ceb9-675f-4562-92e9-52bec45591da",
+          "position" : {
+            "x" : 2.0,
+            "y" : 3.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 0.1,
+            "y" : 0.1,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+          },
+          "relativeMatrix" : [ 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.0, 3.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ 0.1, 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.0, 3.0, 0.0, 1.0 ]
+        }
+      },
+      "bc8493b5-928c-47b6-ab3a-d10871781e9c" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "137d5da0-9649-4277-9859-ab2a4281a139",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Triangle"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "4750d581-357e-444b-bfef-e23988ae4b9f",
+          "position" : {
+            "x" : 3.0,
+            "y" : 1.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 56.0
+          },
+          "relativeMatrix" : [ 0.55919284, 0.82903755, 0.0, 0.0, -0.82903755, 0.55919284, 0.0, 0.0, 0.0, 0.0, 0.99999994, 0.0, 3.0, 1.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ -0.03746066, 0.09271838, 0.0, 0.0, -0.09271838, -0.03746066, 0.0, 0.0, 0.0, 0.0, 0.9999999, 0.0, 2.3387203, 1.807904, 0.0, 1.0 ]
+        }
+      },
+      "b62a771e-bf88-4517-b9b6-366de79cfd29" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "3c1a72cf-fb6c-40cf-8f5d-a2cf9355c661",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Quad"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "f45ed201-69fc-4d09-b60e-2376421fb0cd",
+          "position" : {
+            "x" : 0.0,
+            "y" : 9.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+          },
+          "relativeMatrix" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 9.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ -0.03746066, 0.09271838, 0.0, 0.0, -0.09271838, -0.03746066, 0.0, 0.0, 0.0, 0.0, 0.9999999, 0.0, 1.5042549, 1.4707581, 0.0, 1.0 ]
+        }
+      },
+      "6e47a302-521b-44fa-bf96-33d86d1ceeb3" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "137d5da0-9649-4277-9859-ab2a4281a139",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Triangle"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "ad69c763-b0d4-4ac0-9aea-b84546553245",
+          "position" : {
+            "x" : 3.0,
+            "y" : 1.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 56.0
+          },
+          "relativeMatrix" : [ 0.55919284, 0.82903755, 0.0, 0.0, -0.82903755, 0.55919284, 0.0, 0.0, 0.0, 0.0, 0.99999994, 0.0, 3.0, 1.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ -0.097814746, 0.020791162, 0.0, 0.0, -0.020791162, -0.097814746, 0.0, 0.0, 0.0, 0.0, 0.9999998, 0.0, 1.2991545, 1.7114526, 0.0, 1.0 ]
+        }
+      },
+      "fc8c9935-f625-42c7-bea7-2d225c3a68f7" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "3c1a72cf-fb6c-40cf-8f5d-a2cf9355c661",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Quad"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "ec534446-2e8d-484b-999a-f76284fe584c",
+          "position" : {
+            "x" : 0.0,
+            "y" : 9.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+          },
+          "relativeMatrix" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 9.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ -0.097814746, 0.020791162, 0.0, 0.0, -0.020791162, -0.097814746, 0.0, 0.0, 0.0, 0.0, 0.9999998, 0.0, 1.1120341, 0.8311199, 0.0, 1.0 ]
+        }
+      },
+      "4829d6af-3d6c-4c1c-aa8c-e2f842e48705" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "137d5da0-9649-4277-9859-ab2a4281a139",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Triangle"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "1080fe31-de74-44c4-b998-0cb1ebc0b2c6",
+          "position" : {
+            "x" : 3.0,
+            "y" : 1.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 56.0
+          },
+          "relativeMatrix" : [ 0.55919284, 0.82903755, 0.0, 0.0, -0.82903755, 0.55919284, 0.0, 0.0, 0.0, 0.0, 0.99999994, 0.0, 3.0, 1.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ -0.071933955, -0.06946583, 0.0, 0.0, 0.06946583, -0.071933955, 0.0, 0.0, 0.0, 0.0, 0.99999976, 0.0, 0.79779863, 0.7956786, 0.0, 1.0 ]
+        }
+      },
+      "15055e7c-a2eb-47c7-8479-b3654d9448c2" : {
+        "MeshComponent" : {
+          "name" : "MeshComponent",
+          "id" : "3c1a72cf-fb6c-40cf-8f5d-a2cf9355c661",
+          "meshAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+            "readOnly" : false
+          }
+        },
+        "NameComponent" : {
+          "name" : "NameComponent",
+          "value" : "Quad"
+        },
+        "MaterialComponent" : {
+          "name" : "MaterialComponent",
+          "materialAsset" : {
+            "location" : {
+              "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+              "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+            },
+            "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+            "readOnly" : false
+          }
+        },
+        "TransformComponent" : {
+          "name" : "TransformComponent",
+          "id" : "f532a77f-9110-4591-ac77-2bb9b66712ad",
+          "position" : {
+            "x" : 0.0,
+            "y" : 9.0,
+            "z" : 0.0
+          },
+          "scale" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+          },
+          "rotation" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+          },
+          "relativeMatrix" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 9.0, 0.0, 1.0 ],
+          "absoluteMatrix" : [ -0.071933955, -0.06946583, 0.0, 0.0, 0.06946583, -0.071933955, 0.0, 0.0, 0.0, 0.0, 0.99999976, 0.0, 1.422991, 0.14827299, 0.0, 1.0 ]
+        }
+      }
+    }
+  }
+}

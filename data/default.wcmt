@@ -1,0 +1,32 @@
+{
+  "id" : "2c7c3834-6f86-4100-b24b-245dd553c6a7",
+  "shaderScriptAsset" : {
+    "location" : {
+      "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcs",
+      "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcs"
+    },
+    "dataClass" : "threefourseven.warpcorp.engine.asset.ShaderScript",
+    "readOnly" : false
+  },
+  "diffuseImageAsset" : {
+    "location" : {
+      "id" : "C:\\Projects\\Warp-Corp\\data\\default.png",
+      "path" : "C:\\Projects\\Warp-Corp\\data\\default.png"
+    },
+    "dataClass" : "threefourseven.warpcorp.engine.asset.Image",
+    "readOnly" : true
+  },
+  "ambient" : {
+    "name" : "ambient",
+    "value" : {
+      "x" : 0.40945545,
+      "y" : 0.7853658,
+      "z" : 0.26817366,
+      "w" : 1.0
+    }
+  },
+  "diffuseTexture" : {
+    "name" : "diffuseTexture",
+    "value" : 0
+  }
+}

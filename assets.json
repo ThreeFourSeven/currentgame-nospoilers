@@ -1,0 +1,68 @@
+{
+  "assets" : {
+    "C:\\Projects\\Warp-Corp\\data\\triangle.wcm" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\triangle.wcm"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+      "readOnly" : false
+    },
+    "C:\\Projects\\Warp-Corp\\data\\default_atlas.png" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.png"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.Image",
+      "readOnly" : true
+    },
+    "C:\\Projects\\Warp-Corp\\data\\default.wcs" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcs",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcs"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.ShaderScript",
+      "readOnly" : false
+    },
+    "C:\\Projects\\Warp-Corp\\data\\default.png" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\default.png",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\default.png"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.Image",
+      "readOnly" : true
+    },
+    "C:\\Projects\\Warp-Corp\\data\\sprite.wcs" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\sprite.wcs"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.ShaderScript",
+      "readOnly" : false
+    },
+    "C:\\Projects\\Warp-Corp\\data\\default.wcmt" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\default.wcmt"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.Material",
+      "readOnly" : false
+    },
+    "C:\\Projects\\Warp-Corp\\data\\quad.wcm" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\quad.wcm"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.Mesh",
+      "readOnly" : false
+    },
+    "C:\\Projects\\Warp-Corp\\data\\default_atlas.wcss" : {
+      "location" : {
+        "id" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.wcss",
+        "path" : "C:\\Projects\\Warp-Corp\\data\\default_atlas.wcss"
+      },
+      "dataClass" : "threefourseven.warpcorp.engine.asset.SpriteSheet",
+      "readOnly" : false
+    }
+  }
+}
